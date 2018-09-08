@@ -13,12 +13,7 @@ public class gamesScreen extends AppCompatActivity {
 
     private TextView mTextMessage;
     private ArrayList<String> data = new ArrayList<String>();
-
-    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
-            = new BottomNavigationView.OnNavigationItemSelectedListener() {
-
-        
-    };
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
