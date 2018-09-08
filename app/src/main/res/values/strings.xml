@@ -7,6 +7,7 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_activity_people_games">peopleGames</string>
+    <string name="capture">CAPTURE</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -97,5 +98,6 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="title_activity_friend_games">friendGames</string>
+    <string name="title_activity_camera_front">cameraFront</string>
 
 </resources>
