@@ -8,6 +8,11 @@
     <string name="title_notifications">Notifications</string>
     <string name="title_activity_people_games">peopleGames</string>
     <string name="capture">CAPTURE</string>
+    <string name="noGood">No good? Can\'t tell the expression? No problem! Just press Pass!</string>
+    <string name="sweet">Surprised? Think you can make the face? Press play!</string>
+    <string name="pass">Pass</string>
+    <string name="play">Play</string>
+    <string name="gotIt">Got it</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 

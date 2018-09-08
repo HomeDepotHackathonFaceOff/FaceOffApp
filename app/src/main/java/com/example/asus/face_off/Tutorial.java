@@ -14,20 +14,9 @@ public class Tutorial extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tutorial);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
     }
     public void goToGamesScreen(View view) {
-        Intent toTutorial = new Intent(this, Tutorial.class);
-        startActivity(toTutorial);
+        Intent toGame = new Intent(this, gamesScreen.class);
+        startActivity(toGame);
     }
 }

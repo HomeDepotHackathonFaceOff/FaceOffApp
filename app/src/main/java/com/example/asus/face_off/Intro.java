@@ -22,7 +22,6 @@ import java.util.List;
 
 public class Intro extends AppCompatActivity {
 
-    private ArrayList<String> data = new ArrayList<String>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,7 +29,7 @@ public class Intro extends AppCompatActivity {
 
     }
 
-    public void goToGamesScreen(View view) {
+    public void goToTutorialScreen(View view) {
         Intent toTutorial = new Intent(Intro.this, Tutorial.class);
         startActivity(toTutorial);
     }
