@@ -16,7 +16,7 @@ public class Tutorial extends AppCompatActivity {
         setContentView(R.layout.activity_tutorial);
     }
     public void goToGamesScreen(View view) {
-        Intent toGame = new Intent(this, gamesScreen.class);
+        Intent toGame = new Intent(this, cameraFront.class);
         startActivity(toGame);
     }
 }
