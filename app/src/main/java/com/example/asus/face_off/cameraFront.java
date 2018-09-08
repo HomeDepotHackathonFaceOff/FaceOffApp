@@ -20,6 +20,7 @@ import java.util.Date;
 
 public class cameraFront extends AppCompatActivity {
 
+
     FloatingActionButton cptBtn;
     private final int CAPTURE_PHOTO = 102;
     Uri uri;

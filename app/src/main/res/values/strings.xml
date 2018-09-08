@@ -99,5 +99,6 @@
     </string>
     <string name="title_activity_friend_games">friendGames</string>
     <string name="title_activity_camera_front">cameraFront</string>
+    <string name="title_activity_tutorial">Tutorial</string>
 
 </resources>
