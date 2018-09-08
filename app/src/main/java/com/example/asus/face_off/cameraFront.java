@@ -2,8 +2,6 @@ package com.example.asus.face_off;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.drawable.Drawable;
 import android.media.Image;
 import android.net.Uri;
 import android.os.Environment;
@@ -33,8 +31,8 @@ public class cameraFront extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_camera_front);
         ImageView rep = (ImageView) findViewById(R.id.imageView4);
-        ImageView rep2 = (ImageView) findViewById((R.id.imageView3));
-        rep = rep2;
+        ImageView rep2 = (ImageView find)
+        rep.setImageResource();
         cptBtn = (FloatingActionButton) findViewById(R.id.captureButton);
         cptBtn.setOnClickListener(new View.OnClickListener() {
             @Override

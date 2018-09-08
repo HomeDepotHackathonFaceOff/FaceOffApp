@@ -1,7 +1,9 @@
 package com.example.asus.face_off;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 public class ChooseOpponent extends AppCompatActivity {
 
@@ -9,5 +11,10 @@ public class ChooseOpponent extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose_opponent);
+    }
+
+    public void goToCamera (View view){
+        Intent toCamera = new Intent(this, cameraFront.class);
+        startActivity(toCamera);
     }
 }
