@@ -51,7 +51,8 @@
         <activity
             android:name=".Tutorial"
             android:label="@string/title_activity_tutorial"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ChooseOpponent"></activity>
     </application>
 
 </manifest>
