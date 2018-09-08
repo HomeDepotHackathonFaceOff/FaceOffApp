@@ -6,4 +6,5 @@
     <color name="CameraButtonBackground">#fe5f55</color>
     <color name="CameraWhite">#f7f7ff</color>
     <color name="AppBlue">#6ea4bf</color>
+    <color name="ButtonCustomBlue">#495867</color>
 </resources>

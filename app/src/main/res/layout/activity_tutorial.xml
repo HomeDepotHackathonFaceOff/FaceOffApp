@@ -15,7 +15,7 @@
         android:layout_marginStart="53dp"
         android:layout_marginTop="75dp"
         android:background="@drawable/gotitbutton"
-        android:onClick="goToTutorialScreen"
+        android:onClick="goToGamesScreen"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pass" />
@@ -92,10 +92,10 @@
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="16dp"
         android:layout_marginBottom="17dp"
         android:layout_marginTop="16dp"
-        android:text="TextView"
+        android:text="@string/tutorial"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
