@@ -30,9 +30,7 @@ public class cameraFront extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_camera_front);
-        ImageView rep = (ImageView) findViewById(R.id.imageView4);
-        ImageView rep2 = (ImageView find)
-        rep.setImageResource();
+
         cptBtn = (FloatingActionButton) findViewById(R.id.captureButton);
         cptBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,6 +41,11 @@ public class cameraFront extends AppCompatActivity {
                 startActivityForResult(i, CAPTURE_PHOTO);
             }
         });
+    }
+
+    public void goToResults (View view){
+        Intent toResult = new Intent(this, Result.class);
+        startActivity(toResult);
     }
 }
 

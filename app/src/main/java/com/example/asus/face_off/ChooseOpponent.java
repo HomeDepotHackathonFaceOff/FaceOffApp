@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 
 public class ChooseOpponent extends AppCompatActivity {
 
@@ -13,8 +14,8 @@ public class ChooseOpponent extends AppCompatActivity {
         setContentView(R.layout.activity_choose_opponent);
     }
 
-    public void goToCamera (View view){
-        Intent toCamera = new Intent(this, cameraFront.class);
-        startActivity(toCamera);
+    public void goToGame (View view){
+        Intent toGame = new Intent(this, gamesScreen.class);
+        startActivity(toGame);
     }
 }

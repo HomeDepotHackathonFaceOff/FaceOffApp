@@ -11,6 +11,7 @@
     <string name="noGood">No good? Can\'t tell the expression? No problem! Just press Pass!</string>
     <string name="sweet">Take a picture and let the machine decide if you\'re close. Compete with your friends for the highest score.</string>
     <string name="pass">Pass</string>
+    <string name="congrats">Congratulations!</string>;
     <string name="play">Play</string>
     <string name="tutorial">Tutorial</string>
     <string name="gotIt">Got it</string>

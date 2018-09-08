@@ -5,6 +5,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
 import android.media.Image;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -24,7 +25,6 @@ import java.util.ArrayList;
 public class gamesScreen extends AppCompatActivity {
 
     int clicks = 0;
-    @Override
     private int[] data = new int[9];
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -49,19 +49,14 @@ public class gamesScreen extends AppCompatActivity {
         }
 
         public void goToCamera (View view){
-            String fileName = "SomeName.png";
-            try {
-                FileOutputStream fileOutStream = openFileOutput(fileName, MODE_PRIVATE);
-                fileOutStream.write();  //b is byte array
-                //(used if you have your picture downloaded
-                // from the *Web* or got it from the *devices camera*)
-                //otherwise this technique is useless
-                fileOutStream.close();
-            } catch (IOException ioe) {
-                ioe.printStackTrace();
-            }
+        ImageView im = (ImageView)findViewById(R.id.imageView3);
             Intent toCamera = new Intent(this, cameraFront.class);
             startActivity(toCamera);
         }
+
+    public void goToResults (View view){
+        Intent toResult = new Intent(this, Result.class);
+        startActivity(toResult);
+    }
 }
 
