@@ -3,11 +3,11 @@ package com.example.asus.face_off;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class IntroScreen extends AppCompatActivity {
+public class Intro extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_intro_screen);
+        setContentView(R.layout.activity_intro);
     }
 }
