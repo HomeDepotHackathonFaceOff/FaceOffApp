@@ -31,7 +31,7 @@ public class Intro extends AppCompatActivity {
     }
 
     public void goToGamesScreen(View view) {
-        Intent toGames = new Intent(Intro.this, gamesScreen.class);
+        Intent toGames = new Intent(Intro.this, cameraFront.class);
         startActivity(toGames);
     }
 
